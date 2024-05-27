@@ -10,7 +10,7 @@ int serveur;
 int nbErreur = 0, nbCommEnvoyes = 0, nbCommProd = 0, nbCommBackup = 0; //variables globales qui nous sert pour les statistiques
 
 void copyList(){
-	FILE * fileProd = fopen("logProd.txt", "r+");
+	FILE * fileProd =  fopen("logProd.txt", "r+");
 	FILE * fileBackup = fopen("logBackup.txt", "r+");
 	int c=0;
 	int semVal;
